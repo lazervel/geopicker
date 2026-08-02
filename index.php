@@ -9,5 +9,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 header('Content-Type: application/json');
-echo json_encode(['handshake' => true]);
+echo json_encode(['handshake' => true, 'process' => 'done']);
 ?>
